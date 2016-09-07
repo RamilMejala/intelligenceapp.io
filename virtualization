@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Virtualization | Intelligence</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/custom_mobile.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/custom2.css">
+    <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=News+Cycle' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="images/favicon.png">
+    <script type="text/javascript" src="javascripts/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/bootstrap.min.js"></script>
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="background-color:#383838">
+                <div class="container-fluid-max" style="background-color:#383838; font-family: 'Montserrat', sans-serif;">
+                    <div class="navbar-header">
+
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                        <a href="/" class="imgbiatrack" data-imgbiatrack-assetname="IntellgenceLogo" data-imgbiatrack-actioninfo="nav-bar"><img class="" src="images/Intelligence-logo.png" style="margin: 10px auto;" width="150px" height="30px" alt="" /></a>
+                        <img src="images/beta-fish-logo.PNG" style="margin: 10px auto;" width="50px" alt="" />
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+
+                        <ul class="nav navbar-nav navbar-right" style="text-align:center">
+                            <li class="dropdown dropdown-large">
+                                <a class="hvr-underline-from-center dropdown-toggle" data-toggle="dropdown" href="/virtualization-solutions">IT Solutions</a>
+                                <ul class="dropdown-menu dropdown-menu-large menu row">
+                                    <li class="col-sm-4">
+                                        <ul>
+                                            <li><a href="/virtualization" class="dropdown-header imgbiatrack" data-imgbiatrack-assetname="virtualization-home" data-imgbiatrack-actioninfo="dropdown-nav">Virtualization</a>
+                                            </li>
+                                            <li><a href="/virtualization/solutions#server-virtualization" class="imgbiatrack" data-imgbiatrack-assetname="SV" data-imgbiatrack-actioninfo="dropdown-nav">Server Virtualization</a>
+                                            </li>
+                                            <li><a href="/virtualization/solutions#virtual-desktop-infrastructure" class="imgbiatrack" data-imgbiatrack-assetname="VDI" data-imgbiatrack-actioninfo="dropdown-nav">Virtual Desktop Infrastructure</a>
+                                            </li>
+                                            <li><a href="/virtualization/solutions#software-defined-data-center" class="imgbiatrack" data-imgbiatrack-assetname="SDDC" data-imgbiatrack-actioninfo="dropdown-nav">Software-Defined Data Center</a>
+                                            </li>
+                                            <li><a href="/virtualization/solutions#backup-and-disaster-recovery" class="imgbiatrack" data-imgbiatrack-assetname="BDR" data-imgbiatrack-actioninfo="dropdown-nav">Backup &amp; Disaster Recovery</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="col-sm-4">
+                                        <ul>
+                                            <li><a href="#" class="dropdown-header">Big Data &amp; Analytics</a></li>
+                                            <li class="disabled"><a href="#" >Coming Soon</a></li>
+                                            <li class="divider"></li>
+
+
+                                            <li><a href="#" class="dropdown-header">Cloud Computing</a></li>
+                                            <li class="disabled"><a href="#" >Coming Soon</a></li>
+                                            <li class="divider"></li>
+
+                                            <li><a href="#" class="dropdown-header">Networking</a></li>
+                                            <li class="disabled"><a href="#" >Coming Soon</a></li>
+                                            <li class="divider"></li>
+
+
+                                        </ul>
+                                    </li>
+
+                                    <li class="col-sm-4">
+                                        <ul>
+                                            <li><a href="#" class="dropdown-header">Security</a></li>
+                                            <li class="disabled"><a href="#" >Coming Soon</a></li>
+                                            <li class="divider"></li>
+
+                                            <li><a href="#" class="dropdown-header">Mobile Networking</a></li>
+                                            <li class="disabled"><a href="#" >Coming Soon</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="#" class="dropdown-header">Data Center</a></li>
+                                            <li class="disabled"><a href="#" >Coming Soon</a></li>
+                                            <li class="divider"></li>
+
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="/about" class="hvr-underline-from-center imgbiatrack" data-imgbiatrack-assetname="about" data-imgbiatrack-actioninfo="nav-bar">About</a></li>
+
+                            <li><button type="button" class="btn btn-primary ask-btn navbar-btn imgbiatrack" data-imgbiatrack-assetname="Ask Button" data-imgbiatrack-actioninfo="Question" data-imgbiatrack-actiontype="QuestionForm"> Ask a Question </button></li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="jumbotron" style="margin:0px 0 0 0">
+        <div class="container-fluid-max text-center">
+            <div class="col-md-6 col-sm-6"></div>
+            <div class="col-md-6 col-sm-6 mpaddingreset" style="padding:0 20px 0 0">
+                <span class="mfont mheightreset" style="font-size:54px; padding-top:20px; display:block;width:100%">VIRTUALIZATION</span>
+                <p class="center" style="font-size:18px; margin:0 0 10px 0;">Are you working on a virtualization initiative?
+                    <br />Ask or chat with one of our experts on hand.</p>
+                <button type="button" class="btn btn-default" id="topbtn">Have Virtualization Questions?</button>
+            </div>
+            <div class="jumbotron-inside"></div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="container-fluid" style="background:#ffffff;">
+        <div class="container-fluid-max">
+            <div class="row mheightreset" style="padding-top:40px; padding-bottom:40px;">
+                <div class="col-md-12 text-center mheightreset" style="">
+                    <h1 class="text-center" style="font-family: 'Shadows Into Light', sans-serif; color:#47B5F5">What is Virtualization?</h1>
+
+                    <p class="text-center" style="font-size:18px">Virtualization refers to the creation of a virtual (rather than actual) version of something, including virtual computer hardware platforms, operating systems, storage devices, and computer network resources. It is a proven software technology that makes it possible to run multiple operating systems and applications on the same server at the same time.</p>
+                </div>
+                <div class="col-md-12">
+                    <div class='inxero-xapp' data-id='Xl0k0pRoxy2189' data-thumbnail='medium' data-layout='responsive-carousal' data-border='0' data-content='4'></div><div url='https://www.inxero.com/channels/intelligenceapp-io/showcase/2620-virtualization-resource-library'></div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid" style="background-color:#fff; padding-bottom:20px;">
+        <a href="#virtcategory" style="text-decoration:none"><p style="text-align:center; color:#e3701e; font-family: 'Shadows Into Light', sans-serif; font-size:24px;"> Start Here</p>
+        <div><img src="images/down-arrow.png" onmouseover="this.src='images/down-arrow-blue.png';" onmouseout="this.src='images/down-arrow.png';"alt="" class="img-responsive center-block" style="width:44px; height:auto;" />
+        </div></a>
+    </div>
+
+    <div class="container-fluid" id="virtcategory" style="">
+        <div class="col-md-12" style="padding-top: 50px; padding-bottom:70px;">
+            <div class="container-fluid-max">
+                <h1 class="text-center" style="font-family: 'Shadows Into Light', sans-serif; color:#47B5F5;">VIRTUALIZATION CATEGORIES</h1>
+
+                <p class="text-center" style="padding-bottom:20px;">We've broken down Virtualization into these categories to make your search easier</p>
+
+                <div class="row" style="text-align:center">
+                    <div class="col-md-3 col-centered mpaddingreset">
+                        <a href="/virtualization/solutions#server-virtualization" class="well well-lg imgbiatrack" data-imgbiatrack-assetname="SV" data-imgbiatrack-actioninfo="box" >SERVER <br>VIRTUALIZATION</a>
+                    </div>
+                    <div class="col-md-3 col-centered mpaddingreset">
+                        <a href="/virtualization/solutions#virtual-desktop-infrastructure" class="well well-lg imgbiatrack" data-imgbiatrack-assetname="VDI" data-imgbiatrack-actioninfo="box">VIRTUAL DESKTOP INFRASTRUCTURE</a>
+                    </div>
+
+                </div>
+                <div class="row" style="text-align:center">
+                    <div class="col-md-3 col-centered mpaddingreset">
+                        <a href="/virtualization/solutions#software-defined-data-center" class="well well-lg imgbiatrack" data-imgbiatrack-assetname="SDDC" data-imgbiatrack-actioninfo="box">SOFTWARE-DEFINED<br> DATA CENTER</a>
+                    </div>
+
+                    <div class="col-md-3 col-centered mpaddingreset">
+                        <a href="/virtualization/solutions#backup-and-disaster-recovery" class="well well-lg imgbiatrack" data-imgbiatrack-assetname="BDR" data-imgbiatrack-actioninfo="box">BACKUP &amp; DISASTER<br> RECOVERY</a>
+                    </div>
+
+                </div>
+                <div class="row" style="margin-top:20px">
+                    <div class="col-md-offset-1 col-md-5 mpaddingreset" style="padding-left:30px;">
+                        <p class="center">Not seeing your Virtualization category?
+                            <br /> Help us grow by submitting a topic you'd like to see more of.</p>
+                    </div>
+                    <div class="col-md-6" style="padding-left:30px;">
+                        <form class="form-inline" style="font-family: 'Montserrat', sans-serif; margin-top:10px;">
+                            <div class="form-group mheightreset">
+                                <input type="email" class="form-control " id="emailaddress" placeholder="email address">
+                            </div>
+                            <div class="form-group mheightreset">
+                                <input type="category" class="form-control" id="category" placeholder="category suggestion">
+                            </div>
+                            <div class="form-group center">
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="container-fluid" style="background-color:#fff;">
+        <div class="container-fluid-max" style="padding-top:50px; padding-bottom:100px;">
+            <div class="row">
+                <h1 class="text-center mpaddingreset" style="font-family: 'Shadows Into Light', sans-serif; color:#47B5F5;">BECOME A VIRTUALIZATION MASTER</h1>
+                <p class="mpaddingreset" style="font-family: 'Shadows Into Light', sans-serif; font-size:24px; color:#525252; text-align:center;">We have the tools to make you an industry expert.</p>
+
+
+                <div class="col-md-4 mpadding">
+
+                    <div class="col-md-3 col-sm-2 col-xs-2 m-circle-reset">
+                        <h1 style="font-family: 'Shadows Into Light', sans-serif; font-size:30px; color:#ffffff; background-color:#3498db;" class="btn-circle mbtn">1</h1>
+                    </div>
+                    <div class="col-md-9 col-sm-10 col-xs-10">
+                        <h3 style="font-family:'News Cycle', sans-serif">CONSUME.</h3>
+                        <p style="padding-bottom:10px">Get the latest and greatest on virtualization right here. Download documents, watch videos, explore infographics.</p>
+                        <img src="images/icons.jpg" class="img-responsive" style="width:100%" alt="" />
+                    </div>
+                </div>
+
+                <div class="col-md-4 mpadding">
+
+                    <div class="col-md-3 col-sm-2 col-xs-2 m-circle-reset">
+                        <h1 style="font-family: 'Shadows Into Light', sans-serif; font-size:30px; color:#ffffff; background-color:#3498db;" class="btn-circle mbtn">2</h1>
+                    </div>
+                    <div class="col-md-9 col-sm-10 col-xs-10">
+                        <h3 style="font-family:'News Cycle', sans-serif">CONNECT.</h3>
+                        <p>Local experts at your beck and call. Chat, meet or email with the best to help you choose the right solutions for your company.</p>
+                        <img src="images/connect-image.PNG" class="img-responsive" alt="" />
+                    </div>
+                </div>
+
+                <div class="col-md-4 mpadding">
+                    <div class="col-md-3 col-sm-2 col-xs-2 m-circle-reset">
+                        <h1 style="font-family: 'Shadows Into Light', sans-serif; font-size:30px; color:#ffffff; background-color:#3498db;" class="btn-circle mbtn">3</h1>
+                    </div>
+                    <div class="col-md-9 col-sm-10 col-xs-10">
+                        <h3 style="font-family:'News Cycle', sans-serif">CONSIDER.</h3>
+                        <p>Talk to us about our relationships with the top vendors who specialize in virtualization. Ask questions and make an informed decision.</p>
+                        <img src="images/VMware_logo.png" class="img-responsive" alt="" style="float:left" />
+
+                        <img src="images/Veeam_logo.png" class="img-responsive" alt=""  style="float:left"/>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<footer>
+    <div class="container-fluid" style="background-color:#383838;">
+        <div class="container-fluid-max" style="background-color:#383838;">
+
+            <div class="col-md-3 col-sm-5 col-xs-12 hidesm" align="center" style="">
+              <img src="images/footer-image.png" style="margin:-60px; width:100%; max-width:152px;" alt="" />
+            </div>
+
+            <div class="col-md-3 col-sm-7 col-xs-12" style="color:#fff; padding-top:20px; line-height:25px; padding-left:25px; padding-bottom:30px">
+                <p>Get Apps <span style="font-size:12px">*coming soon*</span></p>
+                <a href="" target="_blank" class=""><img src="images/app_store.png" class="img-rounded icon" width="100px" alt="" style="cursor: not-allowed;"/></a>
+                <a href="" target="_blank" class=""><img src="images/google_play.png" class="img-rounded icon" width="100px" alt="" style="cursor: not-allowed;"/></a>
+                <p>Follow Us</p>
+                <div>
+                    <a href="https://www.facebook.com/IngramMicro" class="imgbiatrack" data-imgbiatrack-assetname="facebook" data-imgbiatrack-actioninfo="footer"><img src="images/facebook.png" class="img-rounded icon" width="30px" alt="Ingram Micro | Facebook" />
+                    </a>
+                    <a href="https://twitter.com/ingrammicroinc" class="imgbiatrack" data-imgbiatrack-assetname="twitter" data-imgbiatrack-actioninfo="footer"><img src="images/twitter.png" class="img-rounded icon" width="30px" alt="Ingram Micro | Twitter" />
+                    </a>
+                    <a href="https://www.linkedin.com/company/ingram-micro" class="imgbiatrack" data-imgbiatrack-assetname="LinkedIn" data-imgbiatrack-actioninfo="footer"><img src="images/linkedin.png" class="img-rounded icon" width="30px" alt="Ingram Micro | LinkedIn" />
+                    </a>
+                    <a href="https://plus.google.com/+ingrammicro" class="imgbiatrack" data-imgbiatrack-assetname="GooglePlus" data-imgbiatrack-actioninfo="footer"><img src="images/googlelogo.png" class="img-rounded icon" width="30px" alt="Ingram Micro | Google+" />
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-xs-12 mheightreset" style="color:#fff; font-size:14px; padding:40px 0 0 0;text-align:center;">
+                <p>&copy;2016 Intelligence App. All rights reserved. Intelligence and the Intelligence logo are trademarks used under license by Ingram Micro Inc. All other trademarks are the property of their respective companies.</p>
+                <p style="text-align:center;">
+                    <a href="http://corp.ingrammicro.com/Terms-of-Use.aspx" target="_blank" class="footerlinks">Terms of Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="http://www.ingrammicro.com/" target="_blank" class="footerlinks">Ingram Micro</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Copyright 2016. All Rights Reserved<br /><br />
+
+                </p>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="http://d2gpqgq83cosn8.cloudfront.net/jsloader.min.js"></script>
+    <script>
+    loadScript("https://s3.amazonaws.com/imgbia-fs/web/imgbia_chat.min.js", function() {
+        imgbiaChat.begin({
+            user_id: imgbiaChat.getParameterByName("eid")
+        })
+    });
+        $(document).ready(function(){
+    $('a[href^="#"]').on('click',function (e) {
+        e.preventDefault();
+
+        var target = this.hash;
+        var $target = $(target);
+
+        $('html, body').stop().animate({
+            'scrollTop': $target.offset().top
+        }, 900, 'swing', function () {
+            window.location.hash = target;
+        });
+    });
+});
+</script>
+
+<script type='text/javascript' async='async' src='http://www.inxero.com/assets/inxo_xapp_loader.js'></script>
+
+<!-- intelligence -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-51713539-7', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<script src="https://secure.adnxs.com/seg?add=5007645&t=1" type="text/javascript"></script>
+
+<script language='JavaScript1.1' src='//pixel.mathtag.com/event/js?mt_id=1003158&mt_adid=161875&v1=&v2=&v3=&s1=&s2=&s3='></script>
+
+<script type="text/javascript" src="http://d2gpqgq83cosn8.cloudfront.net/jsloader.min.js"></script>
+<script type="text/javascript">
+loadScript("http://d2gpqgq83cosn8.cloudfront.net/imtracking_plugin.min.js", function(){
+  imgbiaTrack.imgbiaTrackingInit({
+    page_id : "virtualization-solutions"
+  });
+});
+</script>
+<!-- <script type="text/javascript" src="javascripts/sideBarNavigation.js"></script>
+<script type="text/javascript" src="javascripts/custom.js"></script> -->
+<script type="text/javascript" src="javascripts/minified.js"></script>
+<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.js"></script>
+<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/additional-methods.js"></script>
+</footer>
+
+
+</html>
