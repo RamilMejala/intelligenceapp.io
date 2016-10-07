@@ -3267,6 +3267,33 @@ button.WhiteControl:hover { color:#10b2ed; border-color:#10b2ed; }
 .FeaturedPromo { margin-bottom:15px; }
 .FeaturedPromo a:hover { text-decoration:none; }
 
+.btn-focus
+{
+   padding:15px 20px !important; font-family:'Montserrat', sans-serif; font-size: 13px; font-weight:bold; border-radius:30px; border: 1px solid #ff9d00;
+  transition: all 0.25s;
+}
+
+.btn-focus.condensed { padding:8px 20px !important; border-radius:16px; }
+
+.btn-focus.block {width:100%;}
+
+.btn-focus.fill-orange
+{
+  background-color:#ff9d00; color:#FFFFFF;
+}
+.btn-focus.fill-orange:hover { color:#ff9d00; background-color:#FFFFFF; }
+
+.btn-focus.stroke-orange
+{
+  background-color:transparent; color:#ff9d00;
+}
+.btn-focus.stroke-orange:hover
+{
+  background-color:#ff9d00; color:#FFFFFF;
+}
+
+
+
 @media (max-width:768px) {
 	.subscription-text {
 		position:relative;
