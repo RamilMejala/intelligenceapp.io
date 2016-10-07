@@ -1114,7 +1114,7 @@ input[type=text] {
 }
 
 #vhbannericons .icon:hover {
-	color:#F6194C;
+	color:#00ADEC;
 	cursor:default;
 }
 
@@ -3196,3 +3196,82 @@ button.WhiteControl:hover { color:#10b2ed; border-color:#10b2ed; }
 }
 
 /* Ask a Question */
+
+#subscription {
+	position:relative;
+	min-height:500px;
+}
+
+.subscription-bgimage {
+    background-image: url("../images/subscription.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+	perspective:500px;
+	perspective-origin:50% 50%;
+}
+
+.subscription-bgimage::before {
+	content: "";display: inline-block;position: absolute;top: 0;left: 0;width: 100%;
+    height: 100%;z-index: 0;background-image: url(../images/subscription.png);background-position: center;background-attachment: fixed;background-size: cover;transform-style: preserve-3d;transform-origin: top center;transform: translateZ(-1px) scale(1.1);
+}
+
+.subscription-text {
+	position:relative;
+	top:50%;
+	left:50%;
+	transform:translateX(-50%) translateY(60%);
+}
+
+.subscription-text h3 {
+	font-weight:bold;
+	font-size:20px;
+	color:#2C3540;
+}
+
+#subscription .form-inline {
+	padding:20px 0px;
+}
+
+#subscription input{
+	border:1px solid #FF9D00 !important;
+	border-radius:30px !important;
+	height:50px;
+}
+
+#subscription .btn-orange {
+	background-color:#FF9D00;
+	width:100%;
+	height:50px;
+	color:#FFFFFF;
+	border-radius:30px !important;
+}
+
+.FeaturedPromo { height:320px; cursor:default; }
+.PromoContent { background-color:#FFFFFF; height:320px; padding:15px; transition: all 0.25s; cursor:pointer; text-decoration:none !important; outline:none !important; }
+.PromoContentInner { position:relative; top:50%; transform: translateY(-50%); text-align:center; }
+.PromoContent p { color:#999999; transition: all 0.25s; text-decoration: none !important; outline:none !important; }
+.PromoContent p::before { content:""; display:block; height:1px; width:40px; background-color:#999999; margin:25px auto; transition: all 0.25s; }
+
+.PromoContent:hover { background-color:#00ADEC; }
+.PromoContent:hover p { color:#FFFFFF;text-decoration:none; }
+.PromoContent:hover p::before { background-color:#FFFFFF; }
+
+.PromoContent:hover img
+{
+	filter: contrast(0%) brightness(1000%); -webkit-filter: contrast(0%) brightness(1000%);
+}
+.FeaturedPromo { margin-bottom:15px; }
+.FeaturedPromo a:hover { text-decoration:none; }
+
+@media (max-width:768px) {
+	.subscription-text {
+		position:relative;
+		top:30%;
+		left:50%;
+		transform:translateX(-50%) translateY(30%);
+	}
+}
