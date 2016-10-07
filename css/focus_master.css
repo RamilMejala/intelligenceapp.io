@@ -1064,12 +1064,12 @@ input[type=text] {
 .vhbanner-overlay:before {
 	content:"";
 	display:block;
-	background-image:url("../images/vhBanner.jpg");
+	background-image:url("../images/virtualization-banner-img.png");
 	background-color:#F2F2F2;
 	background-repeat:no-repeat;
-	background-size: 187% auto;
-    background-position: left -38vw;
-	height:360px;
+	background-size: 100% auto;
+    background-position: center center;
+	height:500px;
 	width:100%;
 	position:absolute;
 	top:134px;
@@ -1156,6 +1156,8 @@ input[type=text] {
 	color:#999999;
 	text-decoration:none;
 }
+
+.breadcrumb>.active { color:#999999; }
 
 .breadcrumb>li+li:before {
     padding: 0 5px;
