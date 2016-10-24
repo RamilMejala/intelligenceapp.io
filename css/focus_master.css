@@ -1067,7 +1067,7 @@ input[type=text] {
 	background-image:url("../images/virtualization-banner-img.png");
 	background-color:#F2F2F2;
 	background-repeat:no-repeat;
-	background-size: 100% auto;
+	background-size: cover;
     background-position: center center;
 	height:500px;
 	width:100%;
@@ -1307,6 +1307,8 @@ input[type=text] {
 
 
 @media only screen and (max-width:768px) {
+	
+
 	
 	.vhbanner-text {
 		padding:30px 10px;
@@ -1658,9 +1660,10 @@ hr {
 .more-less {
 	float: right;
 	color: #212121;
+	background-color:#dfdfdf;
+	padding:7px;
+	border-radius:50%;
 }
-
-
 
 .panel-default > .panel-heading + .panel-collapse > .panel-body {
 	border:none;
@@ -1791,7 +1794,7 @@ hr {
 	}
 	
 	.svbanner-text {
-		padding:15px 0px;
+		padding:15px;
 	}
 	
 	.svbanner-text p {
@@ -1802,6 +1805,7 @@ hr {
 	.demo .panel-title>a, .demo .panel-body {
 		padding-left:0px !important;
 	}
+	
 	
 	.demo .panel-default {
 		border:none !important;
@@ -3199,7 +3203,7 @@ button.WhiteControl:hover { color:#10b2ed; border-color:#10b2ed; }
 
 #subscription {
 	position:relative;
-	min-height:500px;
+	min-height:300px;
 }
 
 .subscription-bgimage {
@@ -3221,9 +3225,9 @@ button.WhiteControl:hover { color:#10b2ed; border-color:#10b2ed; }
 
 .subscription-text {
 	position:relative;
-	top:50%;
+	top:20%;
 	left:50%;
-	transform:translateX(-50%) translateY(60%);
+	transform:translateX(-50%) translateY(15%);
 }
 
 .subscription-text h3 {
@@ -3279,7 +3283,7 @@ button.WhiteControl:hover { color:#10b2ed; border-color:#10b2ed; }
 
 .btn-focus.fill-orange
 {
-  background-color:#ff9d00; color:#FFFFFF;
+  background-color:#ff9d00; color:#FFFFFF; font-weight:normal;
 }
 .btn-focus.fill-orange:hover { color:#ff9d00; background-color:#FFFFFF; }
 

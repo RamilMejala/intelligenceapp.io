@@ -26,7 +26,7 @@ $(document).ready(function(){
 	$(e.target)
 		.prev(".panel-heading")
 		.find("i.more-less")
-		.toggleClass('glyphicon-plus glyphicon-minus');
+		.toggleClass('fa-plus fa-minus');
 	}
 
 	$('#accordion').on('hidden.bs.collapse', toggle);
@@ -264,17 +264,17 @@ $(window).resize( function(){ ResizeWindow(); } );
 		
 		<!-- Banner -->
 			<div class="container-fluid" style="">
-				<div class="row" style="background-color:#F2F2F2;z-index:0;padding-bottom:40px;">
-					<div class="svbanner-overlay">
-						<div class="svbanner">
+				<div class="row" style="background-color:#dfdfdf;z-index:0;padding-bottom:20px;">
+					<div class="vhbanner-overlay">
+						<div class="vhbanner">
 						<div class="container">
 							<div class="row" style="padding-bottom:20px;">
 								<div class="col-md-6" style="padding:20px 0px;">
 																	
 									<h1 style="font-size:32px;color:#FFFFFF;line-height:1.2em;padding-bottom:10px; margin-top:0px">
-									Increase Uptime and Reduce IT costs with <span style="color:#00ADEC;">Server Virtualization</span></h1>
+									Reduce IT Costs and Increase Control with Server Virtualization</h1>
 									
-									<!--a href="#" id="banner-btn" class="btn btn-focuspink">CONNECT WITH AN EXPERT&nbsp;&nbsp;<i class="LongArrowRight White"></i></a-->
+									<button id="banner-btn" class="btn-focus fill-orange">ASK A QUESTION</button>
 								</div>
 							</div>
 							<div class="row hidden-xs">
@@ -289,97 +289,79 @@ $(window).resize( function(){ ResizeWindow(); } );
 							
 							<div class="container" style="background-color:#FFFFFF;z-index:1;">
 								<div class="svbanner-text">
-									<table cellpadding="0" cellspacing="0" border="0">
-										<tr>
-											<td class="mobileBlock" style="width:33%;padding-left:15px;padding-right:15px;">
-												<div class="thumbnail">
-													<img src="images/sv-Banner-image.png" alt="" />
+									<h5 style="margin-top:0px;padding-bottom:10px;">GET STARTED WITH BASIC</h5>
+									<div class="demo">
+										<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+											<div class="panel panel-default">
+												<div class="panel-heading" role="tab" id="headingOne">
+													<h4 class="panel-title">
+														<a class="" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+															<i class="more-less fa fa-minus"></i>
+															What is Server Virtualization?
+														</a>
+													</h4>
 												</div>
-												<div class="caption">
-													<p style="padding-top:10px;padding-bottom:10px;font-family: 'Montserrat', sans-serif !important;font-size:14px;font-weight:bold;">Master clustered storage with Storage Spaces and Scale-Out File Server</p>
-													<p style="padding-bottom:20px;font-size:13px;">Server Virtualization is a specialized technology which works on server system resources including the operating system, different physical servers and devices attached to a server system environment from its users. This causes it to appear as a unified system. In a virtualized server environment, specified software is used to distribute physical server system resources to multiple virtual environments. One of the key objectives of server virtualization is to enable sharing, optimize utilization , scalability and management of a server’s resources. </p>
-													<a href="" style="text-decoration:none;color:#f6194b;font-family: 'Montserrat', sans-serif !important;font-size:14px;">MORE THOUGHT LEADERSHIP TOPICS</a> 
-													<span style="border-bottom:1px solid #EEEEEE;padding-top:30px;margin-bottom:10px;" class="visible-xs-block"></span>
-												</div>
-											</td>
-											<td class="mobileBlock" style="width:66%;vertical-align:top;padding-left:15px;padding-right:15px;">	
-											<h5 style="margin-top:0px;padding-bottom:10px;">GET STARTED WITH BASIC</h5>
-											<span style="border-bottom:1px solid #EEEEEE;padding-top:20px;" class="visible-xs-block"></span>
-											<div class="demo">
-												<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-													<div class="panel panel-default">
-														<div class="panel-heading" role="tab" id="headingOne">
-															<h4 class="panel-title">
-																<a class="" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-																	<i class="more-less glyphicon glyphicon-minus"></i>
-																	What is Server Virtualization?
-																</a>
-															</h4>
-														</div>
-														<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-															<div class="panel-body">
-																  Server Virtualization is the masking of server resources, including the identity of individual physical servers, processors, and operating systems, from server users. The server administrator uses a software application to divide one physical server into multiple isolated virtual environments. The virtual environments are sometimes called virtual private servers, but they are also known as guests, instances containers or emulations.
-															</div>
-														</div>
+												<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+													<div class="panel-body">
+														  Server Virtualization is the masking of server resources, including the identity of individual physical servers, processors, and operating systems, from server users. The server administrator uses a software application to divide one physical server into multiple isolated virtual environments. The virtual environments are sometimes called virtual private servers, but they are also known as guests, instances containers or emulations.
 													</div>
-													<div class="panel panel-default">
-													<div class="panel-heading" role="tab" id="headingTwo">
-														<h4 class="panel-title">
-															<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-																<i class="more-less glyphicon glyphicon-plus"></i>
-																What are the different types of server virtualization?
-															</a>
-														</h4>
-													</div>
-													<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-														<div class="panel-body">
-															There are three ways to create virtual servers: full virtualization, Para-virtualization and OS-level virtualization. They all share a few common traits.<br><br>
-															<ul>
-															<li>Full virtualization uses a special kind of software called a hypervisor. The hypervisor interacts directly with the physical server's CPU and disk space. It serves as a platform for the virtual servers' operating systems</li>
-															<li>The Para-virtualization approach is a little different. Unlike the full virtualization technique, the guest servers in a Para-virtualization system are aware of one another. A para-virtualization hypervisor doesn't need as much processing power to manage the guest operating systems, because each OS is already aware of the demands the other operating systems are placing on the physical server</li>
-															<li>An OS-level virtualization approach doesn't use a hypervisor at all. Instead, the virtualization capability is part of the host OS, which performs all the functions of a fully virtualized hypervisor. The biggest limitation of this approach is that all the guest servers must run the same OS. Each virtual server remains independent from all the others, but you can't mix and match operating systems among them.</li>
-															</ul>
-														</div>
-													</div>
-												</div>
-												<div class="panel panel-default">
-													<div class="panel-heading" role="tab" id="headingThree">
-														<h4 class="panel-title">
-															<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-																<i class="more-less glyphicon glyphicon-plus"></i>
-																What are the benefits of Server Virtualization?
-															</a>
-														</h4>
-													</div>
-													<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-														<div class="panel-body">
-															The main reason to switch to Server Virtualization is to reduce costs. Virtualization offers less equipment to maintain and less money managing the hardware. Virtual servers also use less energy which both save money and help the environment. Switching to virtualization can simplify tasks, like installing software, as many software vendors are preinstalling their products on virtual machines. It helps to improve server management and source utilization.
-														</div>
-													</div>
-												</div>
-												
-												<div class="panel panel-default">
-													<div class="panel-heading" role="tab" id="headingFour">
-														<h4 class="panel-title">
-															<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-																<i class="more-less glyphicon glyphicon-plus"></i>
-																How do I Implement Server Virtualization?
-															</a>
-														</h4>
-													</div>
-													<div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-														<div class="panel-body">
-															First, you need to figure out your current workload and what type of virtualization you will need (operating system virtualization, hardware emulation and Para virtualization). Operating system virtualization means that there are self-contained representations of the underlying operating system, whereas hardware emulation allows multiple operating systems to be installed on one computer.<br /><br />
-															It depends upon the needs of the administrator. If the administrator's physical servers all run on the same operating system, then an OS-level approach might work best. OS-level systems tend to be faster and more efficient than other methods. On the other hand, if the administrator is running servers on several different operating systems, para-virtualization might be a better choice. One potential drawback for para-virtualization systems is support -- the technique is relatively new and only a few companies offer para-virtualization software. More companies support full virtualization, but interest in para-virtualization is growing and may replace full virtualization in time.
-														</div>
-													</div>
-												</div>
 												</div>
 											</div>
-											<!--a href="" style="text-decoration:none;color:#f6194b;font-family: 'Montserrat', sans-serif !important;font-size:12px;vertical-align:bottom;">MORE FAQ QUESTIONS</a-->
-											</td>
-										</tr>
-									</table>
+											<div class="panel panel-default">
+											<div class="panel-heading" role="tab" id="headingTwo">
+												<h4 class="panel-title">
+													<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+														<i class="more-less fa fa-plus"></i>
+														What are the different types of server virtualization?
+													</a>
+												</h4>
+											</div>
+											<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+												<div class="panel-body">
+													There are three ways to create virtual servers: full virtualization, Para-virtualization and OS-level virtualization. They all share a few common traits.<br><br>
+													<ul>
+													<li>Full virtualization uses a special kind of software called a hypervisor. The hypervisor interacts directly with the physical server's CPU and disk space. It serves as a platform for the virtual servers' operating systems</li>
+													<li>The Para-virtualization approach is a little different. Unlike the full virtualization technique, the guest servers in a Para-virtualization system are aware of one another. A para-virtualization hypervisor doesn't need as much processing power to manage the guest operating systems, because each OS is already aware of the demands the other operating systems are placing on the physical server</li>
+													<li>An OS-level virtualization approach doesn't use a hypervisor at all. Instead, the virtualization capability is part of the host OS, which performs all the functions of a fully virtualized hypervisor. The biggest limitation of this approach is that all the guest servers must run the same OS. Each virtual server remains independent from all the others, but you can't mix and match operating systems among them.</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<div class="panel panel-default">
+											<div class="panel-heading" role="tab" id="headingThree">
+												<h4 class="panel-title">
+													<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+														<i class="more-less fa fa-plus"></i>
+														What are the benefits of Server Virtualization?
+													</a>
+												</h4>
+											</div>
+											<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+												<div class="panel-body">
+													The main reason to switch to Server Virtualization is to reduce costs. Virtualization offers less equipment to maintain and less money managing the hardware. Virtual servers also use less energy which both save money and help the environment. Switching to virtualization can simplify tasks, like installing software, as many software vendors are preinstalling their products on virtual machines. It helps to improve server management and source utilization.
+												</div>
+											</div>
+										</div>
+										
+										<div class="panel panel-default">
+											<div class="panel-heading" role="tab" id="headingFour">
+												<h4 class="panel-title">
+													<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+														<i class="more-less fa fa-plus"></i>
+														How do I Implement Server Virtualization?
+													</a>
+												</h4>
+											</div>
+											<div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+												<div class="panel-body">
+													First, you need to figure out your current workload and what type of virtualization you will need (operating system virtualization, hardware emulation and Para virtualization). Operating system virtualization means that there are self-contained representations of the underlying operating system, whereas hardware emulation allows multiple operating systems to be installed on one computer.<br /><br />
+													It depends upon the needs of the administrator. If the administrator's physical servers all run on the same operating system, then an OS-level approach might work best. OS-level systems tend to be faster and more efficient than other methods. On the other hand, if the administrator is running servers on several different operating systems, para-virtualization might be a better choice. One potential drawback for para-virtualization systems is support -- the technique is relatively new and only a few companies offer para-virtualization software. More companies support full virtualization, but interest in para-virtualization is growing and may replace full virtualization in time.
+												</div>
+											</div>
+										</div>
+										</div>
+									</div>
+									<a href="" style="text-decoration:none;color:#ff9d00;font-family: 'Montserrat', sans-serif !important;font-size:12px;vertical-align:bottom;">MORE FAQ QUESTIONS</a>
 								</div>
 							</div>
 						</div>
@@ -411,6 +393,48 @@ $(window).resize( function(){ ResizeWindow(); } );
 			</div>
 		
 		<!-- InXero Trending Contents -->
+		
+		
+		<!-- Subscription -->
+			
+			<div class="container-fluid">
+				<div class="row text-xs-center subscription-bgimage">
+					
+					<div class="container">
+						<div class="row">
+					
+							<div class="col-xs-12" id="subscription">
+							
+								<div class="subscription-text">
+									<h3>SUBSCRIBE TO NEWSLETTER</h3>
+									<hr style="width:130px;background-color:#000000;height:2px;margin-top:30px;margin-bottom:30px;"/>
+									<h3 style="font-weight:normal;margin-bottom:30px;">KEEP ME UPDATED WITH IT TRENDS AND CONTENT</h3>
+									<div class="row">
+										<div class="col-sm-4">
+											<div class="form-group">
+												<input type="text" class="form-control" id="name" placeholder="Name">
+											</div>
+										</div>
+										<div class="col-sm-4">
+											<div class="form-group">
+												<input type="email" class="form-control" id="emailaddress" placeholder="EMAIL ADDRESS">
+											</div>
+										</div>
+										<div class="col-sm-4">
+											<button type="submit" class="btn-focus fill-orange block">I WANT MORE  IT CONTENT</button>
+										</div>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+					
+					</div>
+					
+				</div>
+			</div>
+		
+		<!-- Subscription -->
 		
 		
 		<!-- Featured Solutions -->
