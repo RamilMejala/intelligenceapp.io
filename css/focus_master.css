@@ -747,7 +747,8 @@ input[type=text] {
 }
 
 .social {
-	padding-left:15px !important;
+	display:inline-block;
+	text-align:center;
 }
 
 #footer {
@@ -3306,3 +3307,184 @@ button.WhiteControl:hover { color:#10b2ed; border-color:#10b2ed; }
 		transform:translateX(-50%) translateY(30%);
 	}
 }
+
+
+
+/* Homepage */
+
+
+	.hbanner {  
+		background-image:url('../images/virtualization-banner-img.png'); 
+		background-repeat:no-repeat;
+		background-size:cover;
+		background-position:center center;
+		height:700px;
+		width:100%;
+		position:relative;
+	}
+	
+	.hbanner-text {
+		color:#FFFFFF;
+		position:absolute;
+		top:50%; left:50%;
+		transform:translateY(-50%) translateX(-50%);
+		text-align:center;
+	}
+	
+	.preheader {
+		font-size:48px;
+		font-weight:600;
+		display:block;
+	}
+	
+	.preheadersmall {
+		font-size:40px;
+		font-weight:lighter;
+	}
+	
+	.preheaderline {
+		width:150px;
+		margin-top:20px;
+		margin-bottom:20px;
+	}
+	
+	.preheadertext {
+		font-size:16px;
+		width:50%;
+		display:inline-block;
+		margin-bottom:30px;
+	}
+	
+	.ExploreMore {
+		position: absolute;
+		bottom: 0px;
+		left: 50%;
+		width: 130px;
+		margin-left: -65px;
+		z-index: 10;
+		padding: 5px 15px 2px 15px;
+		border: 1px solid rgba(255,255,255,0.5);
+		border-bottom: none;
+		cursor: pointer;
+		color: rgba(255,255,255,0.5);
+		text-align: center;
+		font-size: 11px;
+		width: 130px;
+		text-align: center;
+		height: 26px;
+	}
+	
+	#vlogos {
+		background-color:#FFFFFF;
+		color:#3B3B3B;
+		text-align:center;
+		font-size:20px;
+		font-weight:light;
+		padding:40px 20px;
+	}
+	
+	#vlogos-sec div {
+		height: 52px;
+		text-align: center;
+	}
+	
+	#vlogos-sec div:before { 
+		content: ' ';
+		display: inline-block;
+		vertical-align: middle;
+		height: 100%;
+	}
+	
+	#vlogos-sec img { 
+		filter: grayscale(100%);
+		display: inline-block;
+		vertical-align: middle;
+	}
+	
+	
+	#Home_ExploreITSols
+	{
+					background-color: #F1EFF0;
+	}
+	.HeaderGreenUnderline
+	{
+					display: block; width: 185px; background-color: #78A440; height: 2px; margin:30px auto 20px auto;
+	}
+	#Home_ExploreITSols .ITSol
+	{
+					padding: 20px; font-family: 'Montserrat', sans-serif; font-size: 14px; font-weight: 500; color: #999999; text-transform: uppercase; text-decoration: none;
+					display: inline-block; min-width: 98px; padding: 0px 20px; vertical-align: top; margin-bottom: 15px; position: relative;
+	}
+	#Home_ExploreITSols .ITSol::before
+	{
+					content: ""; display: block; margin: 0 auto; width: 98px; height: 98px; position: relative;
+					border: 1px dashed #999999; border-radius: 100%; background-color: #FFFFFF; margin-bottom: 15px;
+					background-size: 200% auto; background-position: left center; background-repeat: no-repeat;
+	}
+
+	#Home_ExploreITSols .ITSol:hover { color: #081b2e; }
+	#Home_ExploreITSols .ITSol:hover::before { background-position: right center !important; background-color: #FF9D00; border: 1px dashed #FFFFFF; }
+
+	#Home_ExploreITSols .ITSol.Virtualization::before { background-image: url('../images/home-exploreitsols-virtualization.png'); }
+	#Home_ExploreITSols .ITSol.Analytics::before { background-image: url('../images/home-exploreitsols-analytics.png'); }
+	#Home_ExploreITSols .ITSol.Cloud::before { background-image: url('../images/home-exploreitsols-cloud.png'); }
+	#Home_ExploreITSols .ITSol.DataCenter::before { background-image: url('../images/home-exploreitsols-datacenter.png'); }
+	#Home_ExploreITSols .ITSol.Networking::before { background-image: url('../images/home-exploreitsols-networking.png'); }
+	#Home_ExploreITSols .ITSol.Security::before { background-image: url('../images/home-exploreitsols-security.png'); }
+	#Home_ExploreITSols .ITSol.IOT::before { background-image: url('../images/home-exploreitsols-iot.png'); }
+	#Home_ExploreITSols .ITSol.DevOpps::before { background-image: url('../images/home-exploreitsols-devopps.png'); }
+
+	#Home_ExploreITSols .ITSol::after
+	{
+					content: ""; display: inline-block; width: 16px; height: 0px; border-top: 1px dashed #999999; position: absolute; top: 49px; left: -8px;
+	}
+
+	
+	@media (min-width:1200px)
+	{
+					#Home_ExploreITSols .col-lg-1_5 { width: 12.5%; }
+					#Home_ExploreITSols .ITSol:first-child::after { display: none; }
+	}
+	@media (min-width:768px) and (max-width:1199px)
+	{
+					#Home_ExploreITSols .ITSol:nth-child(5n+1)::after { display: none; }
+	}
+
+	@media only screen and (max-width:767px) {
+		.hbanner-text {
+			left:5%;
+			transform:translateY(-50%) translateX(-5%);
+		}                
+		#Home_ExploreITSols .ITSol:nth-of-type(odd)::after { display: none; }
+	}
+
+	.social {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+	}
+	
+	.social li {
+		float: left;
+	}
+	
+	.social li a {
+		display: block;
+		padding: 15px;
+	}
+
+	
+/*---- HOMEPAGE HOW IT WORKS------*/
+
+#Home_HowItWorks { background-color: #FFFFFF; }
+#Home_HowItWorks .ThreeTile { background-color: #f1f0f0; height: 415px; margin-bottom: 30px; }
+#Home_HowItWorks .ThreeTile .HeadSection { background-color: #FFFFFF; border: 2px solid #f1f0f0; height: 275px; padding: 20px; font-weight: 600; }
+#Home_HowItWorks .ThreeTile .HeadSection img { display: block; margin: 0 auto; margin-top: 30px; }
+#Home_HowItWorks .ThreeTile .FootSection { border: 2px solid #f1f0f0; padding: 20px; }
+
+/*---- HOMEPAGE HOW IT WORKS------*/
+
+	
+	
+/* Homepage */
