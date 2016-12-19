@@ -1126,7 +1126,7 @@ input[type=text] {
 /* Virutualisation homepage */
 
 .vhbanner {
-	padding:5em 15px;
+	padding:15em 15px 5em 15px;
 	position:relative;
 }
 
