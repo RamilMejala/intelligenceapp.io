@@ -27,7 +27,11 @@ $(document).ready(function() {
 	$("header").load("header.html");
 	$("footer").load("footer.html");
 	
-	// Collapse accordion every time dropdown is shown
+	
+	setTimeout(
+    function() {
+      
+	  // Collapse accordion every time dropdown is shown
 	$('.dropdown-accordion').on('show.bs.dropdown', function (event) {
 	  var accordion = $(this).find($(this).data('accordion'));
 	  accordion.find('.panel-collapse.in').collapse('hide');
@@ -40,6 +44,12 @@ $(document).ready(function() {
 	  $($(this).data('parent')).find('.panel-collapse.in').collapse('hide');
 	  $($(this).attr('href')).collapse('show');
 	})
+	  
+	  
+    }, 700);
+	
+	
+	
 	
 	
 });
