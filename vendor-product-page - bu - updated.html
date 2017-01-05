@@ -1,0 +1,1161 @@
+<!doctype html>
+<html>
+<head>
+<title>IBM | Vendor Product | Intelligence</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="title" content="IBM | Vendor Product | Intelligence">
+<meta name="description" content="Learn about the top server virtualization products and trends, using our case studies, white papers and premium content. Connect to our IT experts and seek free advice. We are here to help your research and purchasing needs.">
+<meta name="keywords" content="Server Virtualization, Server virtualization Intelligence, what is server virtualization, benefits of server virtualization, virtualization server, virtualisation server, server virtualization top products, server virtualization solutions, server virtualization experts, Virtualized server, servers virtualization.">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.slimscroll.min.js"></script>
+<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800)" rel="stylesheet">
+
+
+<link rel="stylesheet" href="css/focus_master.css">
+<link rel="stylesheet" href="css/vp_page.css">
+<script type='text/javascript' async='async' src='http://www.inxero.com/assets/inxo_xapp_loader.js'></script>
+
+<script>
+$(document).ready(function(){
+	function toggle(e) {
+	$(e.target)
+		.prev(".panel-heading")
+		.find("i.more-less")
+		.toggleClass('fa-plus fa-minus');
+	}
+
+	$('#accordion').on('hidden.bs.collapse', toggle);
+	$('#accordion').on('shown.bs.collapse', toggle);
+	
+	$("header").load("header.html");
+	$("footer").load("footer.html");
+	
+	$('.demo').slimScroll({
+		allowPageScroll: true
+	});
+	
+	ResizeWindow();
+});
+
+window.onclick = function(event)
+{
+	$(".dropdown").each( function()
+	{
+		if( !$.contains(this, event.target) )
+		{
+			$(this).find(".dropdown-content").removeClass("show");
+		}
+	});
+};
+
+function ResizeWindow(){
+	if (window.innerWidth < 767) {
+		$("#questions button").removeClass("inline").addClass("block");
+		$("#banner-btn").removeClass("inline").addClass("block");
+		
+		$("#questions").insertAfter("#sponsoredreviews");
+	}
+	else {
+		$("#questions button").addClass("inline").removeClass("block");
+		$("#banner-btn").addClass("inline").removeClass("block");
+		
+		$("#questions").insertBefore("#sponsoredreviews");
+	}
+	
+};
+
+$(window).resize( function(){ ResizeWindow(); } );
+
+</script>
+</head>
+<body style="background: #ffffff!important;">
+
+<section id="body" style="background: #ffffff!important;">
+	
+	<!-- Header Section -->
+	
+		<div class="container-fluid" style="z-index: 99; position: relative;">
+				<nav class="navbar navbar-default">
+					<div class="row navbar_row1">
+						<div class="col-xs-12" style="padding:0px; z-index: 88;">
+							<div class="container">
+								<div class="row">
+									<div class="col-xs-6 col-sm-3 LogoRow">
+										<a href="homepage.html" style="padding:0px !important;"><img src="images/IBM_logo.png" style="max-width:102px !important;" /></a>
+									</div>
+									<div class="col-xs-9 hidden-xs LogoRow text-right">
+										<a href="#">Support: 1-844-999-0000 </a> |	<a href="#">Email Us</a>	|
+										<!--a href="#" data-toggle="modal" data-target="#login">LOGIN</a-->
+										&emsp;
+										<!--a href="#" class="JoinIntelligence" data-toggle="modal" data-target="#signup">SUBSCRIBE TO INTELLIGENCE&nbsp;<i class="LongArrowRight Blue" aria-hidden="true"></i></a-->								
+                                        <img src="images/IntelligenceLogo.png" style="max-width:200px !important;" />
+									</div>
+									<div class="col-xs-6 LogoRow text-right visible-xs-block"><a href="#" class="JoinIntelligence">JOIN NOW</a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+                    
+                    <div class="row navbar_row2">
+						<div class="col-xs-12" style="padding:0px; z-index: 88;">
+							<div class="container">
+								<div class="row" style="position:relative;">
+									<div class="navbar-header">
+										<ul class="nav navbar-nav visible-xs-block">
+											<li class="nohover">
+												<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" style="float:left; border:none;">
+													<span class="sr-only">Toggle navigation</span>
+													<span class="icon-bar"></span>
+													<span class="icon-bar"></span>
+													<span class="icon-bar"></span>
+												</button>
+											</li>
+											<li>
+												<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">SEARCH EXPERT <span class="glyphicon glyphicon-search"></span></a>
+											</li>
+											<li>
+												<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">IT SOLUTIONS <span class="glyphicon glyphicon-chevron-down"></span></a>
+											</li>
+										</ul>
+									</div>
+									
+									<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+										<ul class="nav navbar-nav">
+											<!--li class="visible-xs"><a href="about.html">ABOUT US</a></li>
+											<li class="visible-xs"><a href="#" data-toggle="modal" data-target="#login">LOGIN</a></li>
+											<li class="visible-xs"><a href="#">FIND LOCAL IT EXPERTS</a></li-->
+											<!--li class="dropdown hidden-xs"> 
+												<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">SEARCH FOR AN IT PRO <span class="glyphicon glyphicon-chevron-down"></span></a>
+												<div class="dropdown-menu">
+													<div class="row">
+														<div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-offset-0 col-md-3">
+															<select class="form-control FocusSelect Classic">
+																<option>Select an IT Category</option>
+															</select>
+														</div>
+														
+														<div class="col-xs-12 hidden-md hidden-lg Submenu_V_Splitter">&nbsp;</div>
+														
+														<div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-offset-0 col-md-2 md-removePadding col-lg-3">
+															<input class="form-control FocusSelect Location" placeholder="Choose your location" />
+														</div>
+														
+														<div class="col-xs-12 hidden-md hidden-lg Submenu_V_Splitter">&nbsp;</div>
+														
+														<div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-offset-0 col-md-3 col-lg-2 lg-removePadding text-md-left text-xs-center">
+															<button type="button" class="btn_SearchExperts">SEARCH EXPERTS&emsp;<span class="glyphicon glyphicon-search"></span></button>
+														</div>
+														
+														<div class="col-xs-12 hidden-md hidden-lg Submenu_V_Splitter">&nbsp;</div>
+														
+														<div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-offset-0 col-md-1 SearchOrFind" style="padding:0px; color:#FFFFFF;">
+															OR
+														</div>
+														
+														<div class="col-xs-12 hidden-md hidden-lg Submenu_V_Splitter">&nbsp;</div>
+														
+														<div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-offset-0 col-md-3 col-lg-3 text-xs-center">
+															<a href="#" class="FindExpertsForMe">
+																FIND EXPERTS FOR ME&nbsp;<i class="LongArrowRight White" aria-hidden="true"></i>
+															</a>
+														</div>
+													</div>
+												</div>
+											</li-->
+											<li class="dropdown" id="vpdropdown">
+												<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">IT SOLUTIONS <span class="glyphicon glyphicon-chevron-down"></span></a>
+												<div class="dropdown-menu">
+													<table cellpadding="0" cellspacing="0" border="0" width="100%">
+														<tr>
+															<td width="25%" class="ITSol_MenuBtn" valign="top">
+																<div class="col-xs-12 MenuBarSubMenuBtn Active"><a href="virtualization.html" style="text-decoration:none;color:#FFFFFF;"><img src="images/SubMenu_Virtualization.png"/>&emsp;VIRTUALIZATION</div>
+																<div class="col-xs-12 MenuBarSubMenuBtn"><img src="images/SubMenu_Analytics.png"/>&emsp;BIG DATA & ANALYTICS</div>
+																<div class="col-xs-12 MenuBarSubMenuBtn"><img src="images/SubMenu_Cloud.png"/>&emsp;CLOUD</div>
+																<div class="col-xs-12 MenuBarSubMenuBtn"><img src="images/SubMenu_DataCenter.png"/>&emsp;DATA CENTER</div>
+																<div class="col-xs-12 MenuBarSubMenuBtn"><img src="images/SubMenu_Networking.png"/>&emsp;NETWORKING</div>
+																<div class="col-xs-12 MenuBarSubMenuBtn"><img src="images/SubMenu_Security.png"/>&emsp;SECURITY</div>
+															</td>
+																
+															<td valign="top" style="background-color:#FFFFFF;">
+																<div class="col-xs-12 MenuBarSubMenuDiv Active">
+																	<div class="row">
+																		<div class="col-xs-12 col-md-4">
+																			<h4>PRODUCTS</h4>
+																			<p>
+																				<a href="server-virtualization.html" style="text-decoration:none;color:#666666;">Server Virtualization</a><br/>
+																				<a href="virtual-desktop-infrastructure.html" style="text-decoration:none;color:#666666;">Virtual Desktop Infrastructure</a><br/>
+																				<a href="software-defined-data-center.html" style="text-decoration:none;color:#666666;">Software-defined Data Center</a><br/>
+																				<a href="back-up-and-disaster-recovery.html" style="text-decoration:none;color:#666666;">Backup &amp; Disaster Recovery</a>
+																			</p>
+																		</div>
+																		<div class="col-xs-12 col-md-4">
+																			<h4>TRENDING CONTENT</h4>
+																			<p>
+																				Server Virtualization<br/>
+																				Virtual Desktop Infrastructure<br/>
+																				Software-defined Data Center<br/>
+																				Virtual Desktop Infrastructure<br/>
+																				Software-defined Data Center<br/>
+																				Backup &amp; Disaster Recovery<br/>
+																				<a href="#" class="SM_LoadMore">LOAD MORE</a>
+																			</p>
+																		</div>
+																		<div class="col-xs-12 col-md-4">
+																			<h4>FUTURE SOLUTIONS</h4>
+																			<p style="line-height:20px;">
+																				<img class="img-responsive" src="images/DataVirtualization_DevOpsPromise.png" /><br/>
+																				How Data Virtualization delivers on the DevOps promise
+																			</p>
+																		</div>
+																	</div>
+																	<!--div class="row" style="padding:0px; margin-left:-15px; margin-right:-15px;">
+																		<div class="col-xs-6" style="padding:0px; border:1px solid #10b2ed; border-right:none; border-left:none;">
+																			<a href="#" class="SM_Footer_Button">
+																				FIND ME AN EXPERT&nbsp;<i class="LongArrowRight Blue" aria-hidden="true"></i>
+																			</a>
+																		</div>
+																		<div class="col-xs-6" style="padding:0px; border:1px solid #10b2ed; border-right:none;">
+																			<a href="#" class="SM_Footer_Button">
+																				START YOUR IT PROJECT &nbsp;<i class="LongArrowRight Blue" aria-hidden="true"></i>
+																			</a>
+																		</div>
+																	</div-->
+																</div>
+																<div class="col-xs-12 MenuBarSubMenuDiv">SUB MENU - BIG DATA & ANALYTICS</div>
+																<div class="col-xs-12 MenuBarSubMenuDiv">SUB MENU - CLOUD</div>
+																<div class="col-xs-12 MenuBarSubMenuDiv">SUB MENU - DATA CENTER</div>
+															</td>
+														</tr>
+													</table>
+												</div>
+											</li>
+											<li class="dropdown" id="vpdropdown">
+												<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">IT RESOURCES<span class="glyphicon glyphicon-chevron-down"></span></a>
+												<div class="dropdown-menu">
+													THIS IS A SUB MENU
+												</div>
+											</li>
+                                            <li class="dropdown" id="vpdropdown">
+												<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">VENDOR RESOURCES<span class="glyphicon glyphicon-chevron-down"></span></a>
+												<div class="dropdown-menu">
+													THIS IS A SUB MENU
+												</div>
+											</li>
+										</ul>
+									
+										<ul class="nav navbar-nav navbar-right hidden-xs" style="margin-right:0px !important;">
+											<li class="SchedBtn">
+												<!--a href="#">
+													ASK A QUESTION&nbsp;<i class="LongArrowRight Grey" aria-hidden="true"></i>
+												</a-->
+                                                <a href="#" class="SchedAConsultation" data-toggle="modal" data-target="#signup" style="padding: 10px 25px !important;">SCHEDULE A CONSULTATION&nbsp;</a>
+											</li>
+										</ul>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</nav>
+                <nav class="navbar2 navbar-default2">
+                	<div class="row navbar_row3">
+						<div class="col-xs-12" style="padding:0px; z-index: 88;">
+							<div class="container">
+								<div class="row" style="position:relative;">
+                                	<ul class="nav navbar-nav hidden-xs">
+                                    	<li><a href="#">Overview</a></li>
+                                        <li><a href="#">Whats New</a></li>
+                                        <li><a href="#">Features & BEnefits</a></li>
+                                        <li><a href="#">Additional Resources</a></li>
+                                        <li><a href="#">Upgrade/Migration</a></li>
+                                        <li><a href="#">Services</a></li>
+                                        <li><a href="#">Contact Us</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+			</div>
+            
+            <!--Banner Section-->
+            
+            <div class="container-fluid" style="">
+				<div class="row" style="z-index:0;margin-top:-50px;">
+					<div class="vppbanner-overlay">
+						<div class="vppbanner">
+                        	<div class="container">
+                                <div class="row" style="padding-bottom:20px;">
+                                    <div class="col-md-6 hero-title" style="padding:20px 0px;">
+                                                                        
+                                        <h1 style="font-size:50px;color:#FFFFFF;line-height:1.2em;padding-bottom:10px; margin-top:0px">
+                                        IBM SPSS Modeler</h1>
+                                        
+                                    </div>
+                                </div>
+                                <div class="row hero-boxes" style="padding-bottom:20px;">
+                                    <div class="col-md-6 hero-text-left" style="padding:20px 0px;">
+                                                                        
+                                        <div id="content-left" style="padding:10px 40px">
+											<p>What it can do for your business</p>
+											
+											<h3><i>Power Every Decision with Predictive Insights</i></h3>
+											
+											<p>IBM SPSS Modeler can help you manage and harness your data, using predictive intelligence to give you the confidence you seek as you make business decisions.
+SPSS Modeler is designed to:</p>
+										
+											<ul style="padding:0px; list-style-type: none;">
+												<li>• Improve decisions and outcomes</li>
+												<li>• Help you extract value from data</li>
+												<li>• More easily integrate into your existing systems</li>
+											</ul>
+											<br/>
+											<a href="#" class="content-left-btn" data-toggle="modal" data-target="#signup" style="padding: 10px 25px !important;">Free 30-Day Trial&nbsp;</a>
+											
+										</div>
+                                        
+                                    </div>
+                                    <div class="col-md-6 hero-form-right" style="padding:20px 0px;">
+                                        
+                                        <!--div id="content-form">
+                                        	Request a demo or a free trial
+											Get connected to speak with a specialist
+										</div-->
+                                     	
+                             <!-- Eloqua Form Start -->
+                                      
+									  <div>
+									  <form method="post" name="UntitledForm-1481297314747" action="https://s1107560253.t.eloqua.com/e/f2" onsubmit="setTimeout(function(){if(document.querySelector){var s=document.querySelector('form#form613 input[type=submit]');if(s){s.disabled=true;}}},100);return true;" id="form613" class="elq-form" >
+										<input value="UntitledForm-1481297314747" type="hidden" name="elqFormName"  />
+										<input value="1107560253" type="hidden" name="elqSiteId"  />
+										<input name="elqCampaignId" type="hidden"  />
+										<div id="formElement0" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size" >
+										  <div class="field-wrapper" >
+										  </div>
+										  <div class="section-break" >
+											<h3 class="heading" >
+											  Get connected to speak with a specialist
+											</h3>
+										  </div>
+										</div>
+										<div id="formElement1" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size" >
+										  <div class="field-wrapper" >
+										  </div>
+										  <div class="individual field-wrapper" >
+											<div class="_100 field-style" >
+											  <p class="field-p" >
+												<label for="field1" class="label-position top " >
+												  Name
+												  <span class="required" >
+													*
+												  </span>
+												</label>
+												<input id="field1" name="fullName" type="text" onfocus="if (this.value=='Name') this.value = ''" value="Name" class="field-size-top-large"  />
+											  </p>
+											</div>
+										  </div>
+										</div>
+										<div id="formElement2" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size" >
+										  <div class="field-wrapper" >
+										  </div>
+										  <div class="individual field-wrapper" >
+											<div class="_100 field-style" >
+											  <p class="field-p" >
+												<label for="field2" class="label-position top " >
+												  Email
+												  <span class="required" >
+													*
+												  </span>
+												</label>
+												<input id="field2" name="email" type="text"  onfocus="if (this.value=='Email') this.value = ''" value="Email" class="field-size-top-large"  />
+											  </p>
+											</div>
+										  </div>
+										</div>
+										<div id="formElement3" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size" >
+										  <div class="field-wrapper" >
+										  </div>
+										  <div class="individual field-wrapper" >
+											<div class="_100 field-style" >
+											  <p class="field-p" >
+												<label for="field3" class="label-position top " >
+												  What are your interest?
+												</label>
+												<select id="field3" name="dropdownMenu" class="field-size-top-large">
+											  	  <option value="What are you're interest?" >
+											  	   What are your interest?
+												  </option>
+												  <option value="First" >
+													First
+												  </option>
+												  <option value="Second" >
+													Second
+												  </option>
+												  <option value="Third" >
+													Third
+												  </option>
+												</select>
+											  </p>
+											</div>
+										  </div>
+										</div>
+										<div id="formElement4" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size" >
+										  <div class="field-wrapper" >
+										  </div>
+										  <div class="individual field-wrapper" >
+											<div class="_100 field-style" >
+											  <p class="field-p" >
+												<input type="submit" value="SCHEDULE A CONSULTATION" class="submit-button"/>
+											  </p>
+											</div>
+										  </div>
+										</div>
+									  </form>
+									  <script src="https://img03.en25.com/i/livevalidation_standalone.compressed.js" type="text/javascript" >
+									  </script>
+									  <style type="text/css" media="screen" >
+										.LV_validation_message{
+										  font-weight:bold;
+										  margin: 0 0 0 5px;
+										}
+										.LV_valid{
+										  color:#00CC00;
+										  display:none;
+										}
+										.LV_invalid{
+										  color:#CC0000;
+										  font-size:10px;
+										}
+										.LV_valid_field, input.LV_valid_field:hover, input.LV_valid_field:active, textarea.LV_valid_field:hover, textarea.LV_valid_field:active {
+										  outline: 1px solid #00CC00;
+										}
+										.LV_invalid_field, input.LV_invalid_field:hover, input.LV_invalid_field:active, textarea.LV_invalid_field:hover, textarea.LV_invalid_field:active {
+										  outline: 1px solid #CC0000;
+										}
+									  </style>
+									  <script type="text/javascript" >
+										var dom1 = document.querySelector('#form613 #field1');
+										var field1 = new LiveValidation(dom1, {
+										  validMessage: "", onlyOnBlur: false, wait: 300}
+																	   );
+										field1.add(Validate.Custom, {
+										  against: function(value) {
+											return !value.match(/(\S:\/\/\S|\S\.\S)/);
+										  }
+										  , failureMessage: "Value must not contain any URL's"}
+												  );
+										field1.add(Validate.Presence, {
+										  failureMessage:"This field is required"}
+												  );
+										var dom2 = document.querySelector('#form613 #field2');
+										var field2 = new LiveValidation(dom2, {
+										  validMessage: "", onlyOnBlur: false, wait: 300}
+																	   );
+										field2.add(Validate.Format, {
+										  pattern: /^([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})$/i, failureMessage: "A valid email address is required"}
+												  );
+										field2.add(Validate.Presence, {
+										  failureMessage:"This field is required"}
+												  );
+										var dom3 = document.querySelector('#form613 #field3');
+										var field3 = new LiveValidation(dom3, {
+										  validMessage: "", onlyOnBlur: false, wait: 300}
+																	   );
+										field3.add(Validate.Custom, {
+										  against: function(value) {
+											return !value.match(/(\S:\/\/\S|\S\.\S)/);
+										  }
+										  , failureMessage: "Value must not contain any URL's"}
+												  );
+										function resetSubmitButton(e){
+										  var submitButtons = e.target.form.getElementsByClassName('submit-button');
+										  for(var i=0;i<submitButtons.length;i++){
+											submitButtons[i].disabled = false;
+										  }
+										}
+										function addChangeHandler(elements){
+										  for(var i=0; i<elements.length; i++){
+											elements[i].addEventListener('change', resetSubmitButton);
+										  }
+										}
+										var form = document.getElementById('form613');
+										addChangeHandler(form.getElementsByTagName('input'));
+										addChangeHandler(form.getElementsByTagName('select'));
+										addChangeHandler(form.getElementsByTagName('textarea'));
+										var nodes = document.querySelectorAll('#form613 input[data-subscription]');
+										if (nodes) {
+										  for (i = 0, len = nodes.length; i < len; i++) {
+											var status = nodes[i].dataset ? nodes[i].dataset.subscription : nodes[i].getAttribute('data-subscription');
+											if(status ==='true') {
+											  nodes[i].checked = true;
+											}
+										  }
+										};
+									  </script>
+									</div>
+                                      	
+                        <!-- Eloqua Form End -->
+                                       
+                                        <div id="content-button" >
+                                        	<button type="button" class="hero-form-button" data-toggle="" data-target="" aria-expanded="false" style="border:none;">
+												<span class=""><a href="#">SCHEDULE A CONSULTATION &nbsp;<!--i class="LongArrowRight Blue" aria-hidden="true"></i--></a></span>
+											</button>
+										</div>
+                                        
+                                    </div>
+                                    
+                                </div>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+			
+            <div style="clear:both; display: block"></div>
+
+            
+            <!-- Overview Section -->
+            
+            <div class="container-fluid" style="padding-top: 40px">
+				<div class="row" style="z-index:0; padding-bottom: 40px;">
+					<div class="container">
+						<h1>What is IBM<span style="font-size:12px; vertical-align: top;">&#174;</span> SPSS<span style="font-size:12px; vertical-align: top;">&#174;</span>  Modeler?</h1>
+						<p>IBM® SPSS® Modeler is a predictive analytics platform that is designed to bring predictive intelligence to decisions made by individuals, groups, systems and the enterprise. It provides a range of advanced algorithms and techniques, including text analytics, entity analytics, decision management and optimization, to help you select the actions that result in better outcomes. Available in several editions, including a cloud-based version, SPSS Modeler can scale from desktop deployments to integration within operational systems.</p>
+						
+						<br/><br/>
+						<!-- Video Placeholder -->
+						<!--img src="images/video-placeholder.png" width="100%"-->
+						
+						<iframe width="1280" height="480" src="https://www.youtube.com/embed/XWqJNi3cWrY" frameborder="0" allowfullscreen></iframe>
+					</div>
+				</div>
+				
+				<div class="row" style="z-index:0; background: #f2f2f2;">
+					<div class="container">
+						<h2>SPSS Modeler Screenshots</h2>
+						<!--p>With IBM SPSS software, you can make data-driven decisions everywhere to improve business results and manage risk.</p-->
+					</div>
+				</div>
+				
+				<div class="row" style="z-index:0; padding: 20px 0 40px 0; background: #f2f2f2;">
+					<div class="container">
+						  <div class="col-xs-6 col-sm-3 pod1">
+							  <div style="padding:10px; text-align: center;">
+							  	  
+							  	  <img src="images/Screenshot1_auto_model.png" width="100%" />
+							  		
+								  <h4 style="height: 50px;">Automated Modeling</h4>
+
+								  <!--p style="height: 140px;">Use a single run to test multiple modeling methods, compare results and select which model to deploy.</p-->
+								  
+							  </div>
+							  
+							  <!--div style="padding:0 10px 10px 10px; text-align: center;">
+								  <a class="pods-btn" href="#">Download Screenshot</a>
+							  </div-->
+						  </div>
+						  
+						  <div class="col-xs-6 col-sm-3 pod2">
+						  	  <div style="padding:10px; text-align: center;">
+						  	  
+						  	  	  <img src="images/Screenshot2_Txt_Analytics.png" width="100%" />
+						  	  	  
+								  <h4 style="height: 50px;">Geospatial Analytics</h4>
+
+								  <!--p style="height: 140px;">Explore geographic data, such as latitude and longitude, postal codes and addresses. </p-->
+								  
+							  </div>
+							  
+							  <!--div style="padding:0 10px 10px 10px; text-align: center;">
+								  <a class="pods-btn" href="#">Get Pricing Details</a>
+							  </div-->
+						  </div>
+
+						  <!-- Add the extra clearfix for only the required viewport -->
+						  <!--div class="clearfix hidden-sm-up"></div-->
+
+						  <div class="col-xs-6 col-sm-3 pod3">
+						  	  <div style="padding:10px; text-align: center;">
+						  	  
+						  	      <img src="images/Scrrenshot3_entity_analytics.png" width="100%" />
+						  	  
+								  <h4 style="height: 50px;">Entity Analytics</h4>
+
+								  <!--p style="height: 140px;">Improve the coherence and consistency of data by resolving like entities even when the entities do not share any key values. </p-->
+								  
+							  </div>
+							  
+							  <!--div style="padding:0 10px 10px 10px; text-align: center;">
+								  <a class="pods-btn" href="#">Get Pricing Details</a>
+							  </div-->
+						  </div>
+						  
+						  <!--div class="col-xs-6 col-sm-2 pod-btn">
+							  <div style="padding:130px 10px 10px 10px; text-align: center;">
+								  <a class="col-pods-btn" href="#">Download the resources</a>
+							  </div>
+						  </div-->
+						  
+						  <div class="col-xs-6 col-sm-3 pod4">
+						  	  <div style="padding:10px; text-align: center;">
+						  	  
+						  	  	  <img src="images/Scrrenshot4_social_network_analysis.png" width="100%" />
+						  	  	  
+								  <h4 style="height: 50px;">Social Network Analysis</h4>
+
+								  <!--p style="height: 140px;">Improve the coherence and consistency of data by resolving like entities even when the entities do not share any key values. </p-->
+								  
+							  </div>
+							  
+							  <!--div style="padding:0 10px 10px 10px; text-align: center;">
+								  <a class="pods-btn" href="#">Get Pricing Details</a>
+							  </div-->
+						  </div>
+						  
+					</div>
+				</div>
+				
+				<!-- Additional Resources Section Start -->
+				
+				<!--div class="row resources-list" style="z-index:0;">
+					<div class="container">
+						<div class="col-md-4" style="padding: 45px 0;">
+							<h1>Additional Resources</h1>
+						</div>
+						<div class="col-md-8" style="padding: 40px 0;">
+							<ul class="inline-resources">
+								<li><a href="#">Whitepapers  <img src="images/placeholders/btn-arrow.png"></a></li>
+								<li><a href="#">Casestudies  <img src="images/placeholders/btn-arrow.png"></a></li>
+								<li><a href="#">eBooks  <img src="images/placeholders/btn-arrow.png"></a></li>
+								<li><a href="#">Reports  <img src="images/placeholders/btn-arrow.png"></a></li>
+							</ul>
+						</div>
+					</div>
+				</div-->
+				
+				<!-- Additional Resources Section End -->
+				
+				<!-- Assets Section Start -->
+				
+				<div class="row" style="z-index:0;">
+					<div class="container extended">
+						<div class="col-md-6">
+							<img src="images/placeholders/placeholder1.png">
+						</div>
+						<div class="col-md-6">
+							<div class="content-right">
+								<h2>Seven Reasons You Need Predictive Analytics Today</h2><br/>
+								<p>Predictive analytics has come of age as a core enterprise practice necessary to sustain competitive advantage. This technology enacts a wholly new phase of enterprise evolution by applying organizational learning, which empowers the business to grow by deploying a unique form of data-driven risk management across multiple fronts.</p>
+								
+								<div style="padding:40px 0;">
+									<button type="submit" class="btn-focus fill-orange block" style="max-width: 230px; width: 100%;">Download Whitepaper</button>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row" style="z-index:0;">
+					<div class="container extended">
+						<div class="col-md-6">
+							<div class="content-left">
+								<h2>Get to know the IBM SPSS product portfolio</h2><br/>
+								<p>IBM® SPSS® solutions are key components of the IBM
+									analytics portfolio. These products help organizations make
+									more informed and optimized decisions in functional areas for
+									improving outcomes and managing risk. SPSS solutions enable
+									your organization to apply analytics to decision making when
+									needed.</p>
+								<div style="padding:40px 0;">
+									<button type="submit" class="btn-focus fill-orange block" style="max-width: 230px; width: 100%;">Download Whitepaper</button>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<img src="images/placeholders/placeholder2.png">
+						</div>
+					</div>
+				</div>
+				
+				<div class="row" style="z-index:0;">
+					<div class="container extended">
+						<div class="col-md-6">
+							<img src="images/placeholders/placeholder1.png">
+						</div>
+						<div class="col-md-6">
+							<div class="content-right">
+								<h2>IBM SPSS Modeler and SPSS Analytic Server: Big data simplified</h2><br/>
+								<p>Big data presents a world of new opportunities but also new analytics
+									challenges: analyzing streaming data, exploiting social media, making
+									fast decisions from massive data volumes and more. Currently, unlocking
+									the value of big data can be complex and requires expert skills.</p>
+								
+								<div style="padding:40px 0;">
+									<button type="submit" class="btn-focus fill-orange block" style="max-width: 230px; width: 100%;">Download Datasheet</button>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Assets Section End -->
+				
+				<!-- Featured Product Section Start -->
+				
+				<div class="row" style="z-index:0;">
+					<div class="vppbanner-overlay">
+						<div class="container">
+							<div class="row hero-boxes" style="padding-bottom:20px;">
+							
+								<div class="col-xs-6 col-md-4">
+									<div class="feature-content" style="padding-top:150px">
+										<h2>More featured IBM SPSS products</h2>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at porttitor sem. Donec placerat nisl magna, et faucibus.</p>
+									</div>
+									<!--div style="padding:20px 0;">
+										<button type="submit" class="btn-focus fill-orange block" style="max-width: 230px; width: 100%;">Download Spec Sheet</button>
+									</div-->
+								</div>
+								
+								<div class="col-xs-12 col-md-8">
+								
+									<div class="row" style="padding-top:100px;">
+									
+										<div class="col-md-6 pod3">
+											<div style="text-align: center">
+												<img src="images/stats.gif" width="100%">
+												<h4>IBM SPSS Statistics</h4>
+												
+												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at porttitor sem. Donec placerat nisl magna, et faucibus.</p>
+											</div>
+											<div style="padding:20px 0;">
+												<button type="submit" class="btn-focus fill-orange block" style="max-width: 230px; width: 100%; margin:0 auto; display:block;">Download Spec Sheet</button>
+											</div>
+										</div>
+										<div class="col-md-6 pod3">
+											<div style="text-align: center">
+												<img src="images/modler.gif" width="100%">
+												<h4>IBM SPSS Modeler Gold on Cloud</h4>
+												
+												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at porttitor sem. Donec placerat nisl magna, et faucibus.</p>
+											</div>
+											<div style="padding:20px 0;">
+												<button type="submit" class="btn-focus fill-orange block" style="max-width: 230px; width: 100%; margin:0 auto; display:block;">Download Spec Sheet</button>
+											</div>
+										</div>
+										
+									</div>
+									
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Featured Product Section End-->
+				
+				<!-- Contact Us Section Start -->
+				
+				<div class="row text-xs-center subscription-section">
+
+					<div class="container">
+						<div class="row">
+
+							<div class="col-xs-12" id="subscription">
+
+								<div class="subscription-text">
+									<h1>Need Help?</h1>
+									<h3 style="font-weight:normal;margin-bottom:30px;"><i>Call our support team 24/7 at 1-844-999-000</i></h3>
+									<hr style="width:130px;background-color:#000000;height:2px;margin-top:30px;margin-bottom:30px;"/>
+									<div class="row">
+										<div class="col-sm-3"></div>
+										<div class="col-sm-3">
+											<button type="submit" class="btn-focus fill-orange block">SCHEDULE A CONSULTATION</button>
+										</div>
+										<div class="col-sm-3">
+											<button type="submit" class="btn-focus fill-orange block">SIGN-UP FOR PROMOTIONS</button>
+										</div>
+										<div class="col-sm-3"></div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+				
+				<!-- Contact Us Section End -->
+				
+				<!-- Other Tracks Start -->
+		
+				<div class="row" id="exploretracks" style="background-color:#00ADEC;padding:30px 0px;color:#FFFFFF;">
+						<div class="container" style="padding-bottom:20px;">
+						<div class="hidden-xs" style="height:30px;"></div>
+						<div class="row">
+							<div class="col-lg-3 col-md-12"><h3 class="text-lg-right text-xs-center" style="font-weight:lighter;font-size:26px;line-height:1.3em;font-family: 'Montserrat Light', sans-serif !important;padding-bottom:10px;">EXPLORE OTHER<br /><span style="font-weight:bold;font-size:34px;">IT TRACKS</span></h3></div>
+							<div class="col-lg-9 col-md-12" style="padding:10px 0px;">
+								<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 mobile15" style="padding-left:5px;padding-right:5px;">
+								<a href="" style="text-decoration:none;color:inherit;">
+									<div class="col-xs-12 exploretrackslogos">
+									<img src="images/data-center-track.png" style="width:25px;" align="middle"/>
+									<span style="">DATA CENTER</span>
+									</div>
+								</a>
+								</div>
+								<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 mobile15" style="padding-left:5px;padding-right:5px;">
+								<a href="" style="text-decoration:none;color:inherit;">
+								<div class="col-xs-12 exploretrackslogos">
+
+									<img src="images/iot.png" style="width:35px;" align="middle"/>
+									<span style="">INTERNET OF THINGS</span>
+									</div>
+									</a>
+								</div>
+								<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 mobile15" style="padding-left:5px;padding-right:5px;">
+								<a href="" style="text-decoration:none;color:inherit;">
+								<div class="col-xs-12 exploretrackslogos">
+									<img src="images/cloud.png" style="width:40px;" align="middle"/>
+									<span style="">CLOUD</span>
+									</div>
+									</a>
+								</div>
+								<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 mobile15" style="padding-left:5px;padding-right:5px;">
+								<a href="" style="text-decoration:none;color:inherit;">
+								<div class="col-xs-12 exploretrackslogos">
+									<img src="images/security.png" style="width:25px;" align="middle"/>
+									<span style="">SECURITY</span>
+									</div>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Other Tracks End -->
+				
+			</div>
+             
+</section>
+	
+	<footer>
+	
+	<!-- Footer -->
+
+	<!-- Links section -->
+	
+	<div class="container-fluid hidden-xs" id="footerlinks">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2 col-sm-6">
+					<h5>VIRTUALIZATION</h5>
+					<hr width="30px" style="float:left; margin:0; border-color:#4280A7; margin-bottom:10px;" />
+					<ul>
+						<li><a href="">Server Virtualization</a></li>
+						<li><a href="">Virtual Desktop Infrastructure</a></li>
+						<li><a href="">Software-defined Data Center</a></li>
+						<li><a href="">Backup &amp; Disaster Recovery</a></li>
+					</ul>
+				</div>
+				<div class="col-md-2 col-sm-6">
+					<h5>BIG DATA &AMP; ANALYTICS</h5>
+					<hr width="30px" style="float:left; margin:0; border-color:#4280A7; margin-bottom:10px;" />
+					<ul>
+						<li><a href="">Data Management</a></li>
+						<li><a href="">Analytics &amp; Business Intelligence</a></li>
+						<li><a href="">Data Visualization</a></li>
+						<li><a href="">Data Platforms &amp; Data Infrastructure</a></li>
+						<li><a href="">Data Virtualization</a></li>
+					</ul>
+				</div>
+				<div class="col-md-2 col-sm-6">
+					<h5>CLOUD</h5>
+					<hr width="30px" style="float:left; margin:0; border-color:#4280A7; margin-bottom:10px;" />
+					<ul>
+						<li><a href="">Cloud Services</a></li>
+						<li><a href="">Cloud Management</a></li>
+						<li><a href="">Cloud Migration</a></li>
+						<li><a href="">Private, Public, Hybrid Cloud</a></li>
+					</ul>
+				</div>
+				
+				<!--div class="col-sm-12 visible-sm"></div-->
+				
+				<!--div class="col-md-2 col-sm-6">
+					<h5>QUICK LINKS</h5>
+					<hr width="30px" style="float:left; margin:0; border-color:#4280A7; margin-bottom:10px;" />
+					<ul>
+						<li><a href="">Home</a></li>
+						<li><a href="about.html">About Us</a></li>
+						<li><a href="">Explore IT Solutions</a></li>
+						<li><a href="">Find Local IT Experts</a></li>
+						<li><a href="">IT White Glove Services</a></li>
+					</ul>
+				</div-->
+				
+				<div class="col-md-2 col-sm-6">
+					<h5>DATA CENTER</h5>
+					<hr width="30px" style="float:left; margin:0; border-color:#4280A7; margin-bottom:10px;" />
+					<ul>
+						<li><a href="">Data Center Management and Automation Storage</a></li>
+						<li><a href="">Data Center Facilities</a></li>
+						<li><a href="">Data Center as a Service</a></li>
+						<li><a href="">Compute / Servers</a></li>
+					</ul>
+				</div>
+				
+				<div class="col-md-2 col-sm-6">
+					<h5>NETWORKING</h5>
+					<hr width="30px" style="float:left; margin:0; border-color:#4280A7; margin-bottom:10px;" />
+					<ul>
+						<li><a href="">Software Defined Networking</a></li>
+						<li><a href="">Enterprise Networking</a></li>
+						<li><a href="">Telecommunication</a></li>
+						<li><a href="">Unified Communication</a></li>
+					</ul>
+				</div>
+				
+				<!--div class="col-sm-12 visible-sm"></div-->
+				
+				<div class="col-md-2 col-sm-6">
+					<h5>SECURITY</h5>
+					<hr width="30px" style="float:left; margin:0; border-color:#4280A7; margin-bottom:10px;" />
+					<ul>
+						<li><a href="">Cloud Security</a></li>
+						<li><a href="">GRC</a></li>
+						<li><a href="">Network Security</a></li>
+						<li><a href="">Application &amp; Data Security</a></li>
+						<li><a href="">Mobile &amp; End Point Security</a></li>
+						<li><a href="">Identity &amp; Access Management</a></li>
+						<li><a href="">Cyber Security</a></li>
+						<li><a href="">Security Intelligence</a></li>
+					</ul>
+				</div>
+				<!--div class="col-sm-4 col-md-3">
+					<h5>CONNECT SOCIAL</h5>
+					<ul class="social">
+						<li><a href=""><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></span></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href=""><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x fa-inverse"></i></span></a></li><br />
+						<li><a href=""><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-google-plus fa-stack-1x fa-inverse"></i></span></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href=""><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-linkedin fa-stack-1x fa-inverse"></i></span></a></li>
+					</ul>
+				</div-->
+				
+				<div class="col-xs-12 visible-md visible-lg">&nbsp;</div>
+				
+				<div class="col-md-2 col-sm-6" style="padding-bottom: 40px;">
+					<h5>IOT</h5>
+				</div>
+				
+				<div class="col-md-2 col-sm-6" style="padding-bottom: 40px;">
+					<h5>DEV OPS</h5>
+				</div>
+				
+				<div class="col-xs-12 visible-md visible-lg" style="border-top:1px solid #8a8a8a;">&nbsp;</div>
+				
+				<div class="col-md-6 col-sm-5 footer-content">
+					<p style="padding-top:10px;">Copyright (C) Ingram Micro 2016. View our Terms of Use or Privacy Policy. Send us a comment to <br/>ingramrewards@ingrammicro.com or give us a call at +1 (800) 456-8000.</p>
+				</div>
+				
+				<div class="col-md-6 col-sm-5">
+					<div style="float:left;">
+						<ul class="social social-footer">
+							<li><a href=""><span class="fa-stack fa-lg"><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></span></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href=""><span class="fa-stack fa-lg"><i class="fa fa-twitter fa-stack-1x fa-inverse"></i></span></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href=""><span class="fa-stack fa-lg"><i class="fa fa-linkedin fa-stack-1x fa-inverse"></i></span></a></li>
+						</ul>
+					</div>
+					
+					<div style="float:right;">
+						<img src="images/ingram-footer-logo.jpg">
+					</div>
+				</div>
+				
+				
+			</div>
+		</div>
+	</div>
+	
+	
+		<div class="container visible-xs" id="footerlinks">
+			<div class="panel-group" id="accordion">
+			
+			  <div class="panel panel-default">
+				<div class="panel-heading">
+				  <h4 class="panel-title">
+					<a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+					VIRTUALIZATION <span class="caret"></span></a>
+				  </h4>
+				  
+				</div>
+				<div id="collapse1" class="panel-collapse collapse">
+				  <ul class="list-group">
+					<li class="list-group-item"><a href="">Server Virtualization</a></li>
+					<li class="list-group-item"><a href="">Virtual Desktop Infrastructure</a></li>
+					<li class="list-group-item"><a href="">Software-defined Data Center</a></li>
+					<li class="list-group-item"><a href="">Backup &amp; Disaster Recovery</a></li>
+				</ul>
+				</div>
+			  </div>
+			  <div class="panel panel-default">
+				<div class="panel-heading">
+				  <h4 class="panel-title">
+					<a data-toggle="collapse" data-parent="#accordion" href="#collapse5">
+					DATA CENTER <span class="caret"></span></a>
+				  </h4>
+				</div>
+				<div id="collapse5" class="panel-collapse collapse">
+				  <ul class="list-group">
+					<li class="list-group-item"><a href="">Data Center Management and Automation Storage</a></li>
+					<li class="list-group-item"><a href="">Data Center Facilities</a></li>
+					<li class="list-group-item"><a href="">Data Center as a Service</a></li>
+					<li class="list-group-item"><a href="">Compute / Servers</a></li>
+				</ul>
+				</div>
+			  </div>
+			  
+			  <div class="panel panel-default">
+				<div class="panel-heading">
+				  <h4 class="panel-title">
+					<a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+					BIG DATA &AMP; ANALYTICS <span class="caret"></span></a>
+				  </h4>
+				</div>
+				<div id="collapse2" class="panel-collapse collapse">
+				  <ul class="list-group">
+					<li class="list-group-item"><a href="">Data Management</a></li>
+					<li class="list-group-item"><a href="">Analytics &amp; Business Intelligence</a></li>
+					<li class="list-group-item"><a href="">Data Visualization</a></li>
+					<li class="list-group-item"><a href="">Data Platforms &amp; Data Infrastructure</a></li>
+					<li class="list-group-item"><a href="">Data Virtualization</a></li>
+				</ul>
+				</div>
+			  </div>
+			  <div class="panel panel-default">
+				<div class="panel-heading">
+				  <h4 class="panel-title">
+					<a data-toggle="collapse" data-parent="#accordion" href="#collapse5">
+					NETWORKING <span class="caret"></span></a>
+				  </h4>
+				</div>
+				<div id="collapse5" class="panel-collapse collapse">
+				  <ul class="list-group">
+					<li class="list-group-item"><a href="">Software Defined Networking</a></li>
+					<li class="list-group-item"><a href="">Enterprise Networking</a></li>
+					<li class="list-group-item"><a href="">Telecommunication</a></li>
+					<li class="list-group-item"><a href="">Unified Communication</a></li>
+				</ul>
+				</div>
+			  </div>
+			  
+			  <div class="panel panel-default">
+				<div class="panel-heading">
+				  <h4 class="panel-title">
+					<a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+					CLOUD <span class="caret"></span></a>
+				  </h4>
+				</div>
+				<div id="collapse3" class="panel-collapse collapse">
+				  <ul class="list-group">
+					<li class="list-group-item"><a href="">Cloud Services</a></li>
+					<li class="list-group-item"><a href="">Cloud Management</a></li>
+					<li class="list-group-item"><a href="">Cloud Migration</a></li>
+					<li class="list-group-item"><a href="">Private, Public, Hybrid Cloud</a></li>
+				</ul>
+				</div>
+			  </div>
+			  <div class="panel panel-default">
+				<div class="panel-heading">
+				  <h4 class="panel-title">
+					<a data-toggle="collapse" data-parent="#accordion" href="#collapse6">
+					SECURITY <span class="caret"></span></a>
+				  </h4>
+				</div>
+				<div id="collapse6" class="panel-collapse collapse">
+				  <ul class="list-group">
+					<li class="list-group-item"><a href="">Cloud Security</a></li>
+					<li class="list-group-item"><a href="">GRC</a></li>
+					<li class="list-group-item"><a href="">Network Security</a></li>
+					<li class="list-group-item"><a href="">Application &amp; Data Security</a></li>
+					<li class="list-group-item"><a href="">Mobile &amp; End Point Security</a></li>
+					<li class="list-group-item"><a href="">Identity &amp; Access Management</a></li>
+					<li class="list-group-item"><a href="">Cyber Security</a></li>
+					<li class="list-group-item"><a href="">Security Intelligence</a></li>
+				</ul>
+				</div>
+			  </div>
+			
+			  <div class="panel panel-default">
+				<div class="panel-heading">
+				  <h4 class="panel-title">
+					<a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+					QUICK LINKS <span class="caret"></span></a>
+				  </h4>
+				</div>
+				<div id="collapse4" class="panel-collapse collapse">
+				  <ul class="list-group">
+					<li class="list-group-item"><a href="">Home</a></li>
+					<li class="list-group-item"><a href="about.html">About Us</a></li>
+					<li class="list-group-item"><a href="">Explore IT Solutions</a></li>
+					<li class="list-group-item"><a href="">Find Local IT Experts</a></li>
+					<li class="list-group-item"><a href="">IT White Glove Services</a></li>
+				</ul>
+				</div>
+			  </div>
+			</div>
+
+
+			<div class="col-xs-12 visible-xs">
+				<h5>CONNECT SOCIAL</h5>
+				<ul class="social">
+					<li><a href=""><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></span></a></li>
+					<li><a href=""><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x fa-inverse"></i></span></a></li>
+					<li><a href=""><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-google-plus fa-stack-1x fa-inverse"></i></span></a></li>
+					<li><a href=""><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-linkedin fa-stack-1x fa-inverse"></i></span></a></li>
+				</ul>
+			</div>
+		
+	</div>
+	
+	<!-- Links section -->
+	
+	<!-- Footer -->
+	
+	<!--div class="container-fluid" id="footer">
+		<div class="container">
+		<div class="row">
+			<div class="col-md-7">
+				<p>2016 Intelligence App. All rights reserved. Intelligence logo are trademarks used under license by Ingram Micro Inc. All other trademarks are the property of their respective companies.</p>
+				<p class="hidden-xs"><a href="">Terms of Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="">Ingram Micro</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Copyright 2016. All Rights Reserved.</p>
+				<div class="col-xs-12 visible-xs">
+					<p><a href="">Terms of Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="">Ingram Micro</a></p>
+					<p>Copyright 2016. All Rights Reserved.</p>
+				</div>
+			</div>
+			<div class="col-md-offset-1 col-md-4">
+				<div class="col-xs-12 col-sm-3 col-md-6 col-lg-offset-3 col-lg-5 mobile15" style="padding-left:0px;"><img src="images/google_play_icon.png" style="max-width:130px;" alt="" class="img-responsive"/></div>
+				 <div class="col-xs-12 visible-xs-block" style="height:20px"></div>
+				<div class="col-xs-12 col-sm-3 col-md-6 col-lg-4"><img src="images/appstore-iphone.png" style="max-width:130px;" alt="" class="img-responsive"/></div>				
+			</div>
+		</div>
+		</div>
+	</div-->
+	
+	<!-- Footer -->
+
+<!-- Footer -->
+	
+	</footer>
+
+	
+</body>
+</html>
